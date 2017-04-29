@@ -42,9 +42,10 @@ Now, you can use LanguageSwitch, like this
 
 When your route use some id or slug, you must say what model to use
 
+```php
 Route::get(trans('routes.news') . '/{slug}' , [
   'as'           => 'newsdetails',
   'uses'         => 'NewsController@details',
   'model'        => 'App\News'
 ]);
-
+```
