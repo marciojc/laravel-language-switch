@@ -1,7 +1,5 @@
 # Language Switch
 
-![Voyager Screenshot](https://raw.githubusercontent.com/the-control-group/voyager/gh-pages/images/screenshot.png)
-
 Website & Documentation: https://github.com/marciojc/language-switch
 
 <hr>
@@ -32,6 +30,7 @@ Add the LanguageSwitch service provider to the `config/app.php` file in the `pro
 
 Now, you can use LanguageSwitch, like this
 
+```html
 <div class="language">
   @if (App::getLocale() == 'pt')
     <a class="lang-link" href="{{getTranslationUrl('en')}}">{{ trans('common.en') }}</a>
@@ -39,6 +38,7 @@ Now, you can use LanguageSwitch, like this
     <a class="lang-link" href="{{getTranslationUrl('pt')}}">{{ trans('common.pt') }}</a>
   @endif
 </div>
+```
 
 When your route use some id or slug, you must say what model to use
 
