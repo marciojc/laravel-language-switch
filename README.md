@@ -4,8 +4,6 @@ Website & Documentation: https://github.com/marciojc/language-switch
 
 <hr>
 
-Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), made for Laravel 5.3.
-
 After creating your new Laravel application you can include the LanguageSwitch package with the following command:
 
 ```bash
