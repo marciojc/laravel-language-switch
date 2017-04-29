@@ -22,7 +22,9 @@ if (!function_exists('getTranslationUrl')) {
 
           if (isset($action['model'])) {
             $model = $action['model'];
-            $static = $model::whereTranslation('slug', $encodedParams)->first();
+            $ids = array_keys($parameters);
+            $id = $ids[0];
+            $static = $model::whereTranslation($id, $encodedParams)->first();
             $static = $static->getTranslation($lang);
             $encodedParams = $static->slug;
           }

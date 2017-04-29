@@ -12,14 +12,14 @@
     },
     "autoload": {
         "psr-4": {
-            "marcio\\LanguageSwitch\\": "src/"
+            "marciojc\\LanguageSwitch\\": "src/"
         }
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Márcio Coelho",
-            "email": "marciojc@gmail.pt"
+            "email": "marciojc@gmail.com"
         }
     ]
 }
