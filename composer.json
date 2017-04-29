@@ -1,0 +1,25 @@
+{
+    "name": "marcio/languageSwitch",
+    "description": "A Laravel Package to switch language",
+    "type": "library",
+    "require": {
+        "illuminate/support": "5.4.*",
+        "browner12/helpers": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "laravel/framework": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "marcio\\LanguageSwitch\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Márcio Coelho",
+            "email": "marciojc@gmail.pt"
+        }
+    ]
+}
