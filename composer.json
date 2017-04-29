@@ -1,5 +1,5 @@
 {
-    "name": "marcio/languageSwitch",
+    "name": "marciojc/language-switch",
     "description": "A Laravel Package to switch language",
     "type": "library",
     "require": {
