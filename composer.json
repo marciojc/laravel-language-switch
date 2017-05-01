@@ -1,6 +1,7 @@
 {
     "name": "marciojc/language-switch",
     "description": "A Laravel Package to switch language",
+    "keywords": ["Laravel", "Locale", "Language", "i18n"],
     "type": "library",
     "require": {
         "illuminate/support": "5.4.*",
